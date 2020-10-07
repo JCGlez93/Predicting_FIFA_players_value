@@ -67,6 +67,8 @@ To interact with the machine learning model , I have used tkinter as the main li
 
 ## **Usage**
 
+1- Run all the jupyter notebook\
+2- An app will pop up, input the parameters based on the following intervals:
 
 
 - Parameters: 
@@ -89,9 +91,9 @@ To interact with the machine learning model , I have used tkinter as the main li
         - 'defending': 14-90
         - 'physic': 27-92
         - 'year': 2015-2022
-- Return values: it returns the time of the execution and the player value
-- Known issues : the model does not accept blank inputs
-- Limitation: the model does only accept numerical values coming from the dataset. Ideally you can use dummy variables to increase R2 but you will not be able to create a usable GUI
+3- Press the button and you will get the time of the execution and the player value\
+4- Known issues : the model does not accept blank inputs\
+5- Limitation: the model does only accept numerical values coming from the dataset. Ideally you can use dummy variables to increase R2 but you will not be able to create a usable GUI
 
 
 
@@ -99,11 +101,12 @@ To interact with the machine learning model , I have used tkinter as the main li
         
 
 
-## **ToDo**
-- Next steps: provide more insights from the data extracted
+## **Bonus**
+- I created another file called bonus where I used dummy variables and created a better machine learning algorithm.\
+- Feel free to use it as template for other projects
 
 
 
 ## **Thanks and contact info**
-Getting help from Julia Roch Pedro Muñoz.
+Getting help from Julia Roch & Pedro Muñoz.
 Please do email me for further questions : jcglez93@gmail.com
