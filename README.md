@@ -2,12 +2,19 @@
 
 ## **Overview:**
 
-This piece of code extract data from different sources, manipulates it and save the csv locally 
-so you can understand better the price volatility.
 
-In addition , it creates a machine learning model that can be use with an app.
 
-This instructions will allow you to make a copy of the project locally.
+This piece of code :
+
+
+1-Extracts data from different sources \
+2-Does data wrangling\
+3-Executes a random forest regressor\
+4-Creates an app where you can input different parameter and get the value of those players based ont the prediction.
+
+
+
+This instructions will allow you to make a copy of the project locally.\
 Check test execution to understand how  to deploy the project.
 
 
@@ -39,26 +46,28 @@ Check test execution to understand how  to deploy the project.
 
 ## **Instalation:**
 
-As a rule of thumb: I do encourage you to install conda, create a working environment and download any library doing : "conda install..."
+As a rule of thumb: I do encourage you to install conda, create a working environment and download any library (mentioned above) doing : "conda install..."
 
 Example: "conda install numpy"
 
 ## **Test execution:**
 
 Any execution must be done from a jupyter notebook so both the model and the app works perfectly.
-The model will run automatically and after it learned , you will be able to input data in the app.
+The machine learning model will run automatically and after it has learned , you will be able to input data in the app.
 
 
 
 ## **Core technical concepts and inspiration**
 
-The main reason why I created this is to understand what makes a player more expensive or cheaper.
+The main reason why I created this is to understand what makes a football player more expensive based on different skills.
 Can we find the new Messi on his very early stages?
 
 Jupyter notebooks are quite good to create and run the model as you can iterate and print the result easily.
 To interact with the machine learning model , I have used tkinter as the main library.
 
 ## **Usage**
+
+
 
 - Parameters: 
 
