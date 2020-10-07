@@ -6,7 +6,7 @@ Check test execution to understand how  to deploy the project.
 
 
 
-Model for app file :
+Model_for_app.ipynb file :
 
 
 1-Extracts data from different sources \
