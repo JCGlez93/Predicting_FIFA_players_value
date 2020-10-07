@@ -105,6 +105,11 @@ To interact with the machine learning model , I have used tkinter as the main li
 - I created another file called bonus where I used dummy variables and created a better machine learning algorithm.\
 - Feel free to use it as template for other projects
 
+## **To Do**
+
+- Better explore the player position as it will probably improve the understanding of the model
+- The raw data gives you 3 positions , ideally you should take 1 and improve the model.
+
 
 
 ## **Thanks and contact info**
