@@ -1,6 +1,8 @@
 # Predicting FIFA players value
 
 ## **Overview:**
+This instructions will allow you to make a copy of the project locally.\
+Check test execution to understand how  to deploy the project.
 
 
 
@@ -14,8 +16,6 @@ Model for app file :
 
 
 
-This instructions will allow you to make a copy of the project locally.\
-Check test execution to understand how  to deploy the project.
 
 
 ![Image](http://www.radiohc.cu/articles/7633-fifa.jpg)
