@@ -14,7 +14,7 @@ Check test execution to understand how  to deploy the project.
 ![Image](http://www.radiohc.cu/articles/7633-fifa.jpg)
 ---
 
-)
+
 ## **Pre-requisites:**
 
 - Python 3.7 (at least)
