@@ -4,7 +4,7 @@
 
 
 
-This piece of code :
+Model for app file :
 
 
 1-Extracts data from different sources \
