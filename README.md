@@ -2,17 +2,16 @@
 
 ## **Overview:**
 This instructions will allow you to make a copy of the project locally.\
-Check test execution to understand how  to deploy the project.
+Check test execution to understand how  to deploy  and execute the Model_for_app.ipynb. \
+I have created 2 extra files as a bonus so you can understand better the machine learning models and make investment decisions
+
+You can find the following executable files:
+
+- Model_for_app.ipynb : explains the dataset, does a random forest regression and creates an app that allows you to get the value of a player based on certain parameters.
+- Bonus.ipynb :  explains the dataset and does more complex machine learning models.
+- under_rated_players.ipynb: explains the dataset, does a random forest regression and creates a csv with the value predicted vs reality. It includes a link to a tableau dashboard so you can interact with the list and take the best decision.
 
 
-
-Model_for_app.ipynb file :
-
-
-1-Extracts data from different sources \
-2-Does data wrangling\
-3-Executes a random forest regressor\
-4-Creates an app where you can input different parameter and get the value of those players based ont the prediction.
 
 
 
@@ -59,7 +58,7 @@ The machine learning model will run automatically and after it has learned , you
 
 ## **Core technical concepts and inspiration**
 
-The main reason why I created this is to understand what makes a football player more expensive based on different skills.
+The main reason why I created this project is to understand what makes a football player more expensive based on different skills.
 Can we find the new Messi on his very early stages?
 
 Jupyter notebooks are quite good to create and run the model as you can iterate and print the result easily.
@@ -96,22 +95,13 @@ To interact with the machine learning model , I have used tkinter as the main li
 5- Limitation: the model does only accept numerical values coming from the dataset. Ideally you can use dummy variables to increase R2 but you will not be able to create a usable GUI
 
 
-
-
-        
-
-
-## **Bonus**
-- I created another file called bonus where I used dummy variables and created a better machine learning algorithm.\
-- Feel free to use it as template for other projects
-
 ## **To Do**
 
 - Better explore the player position as it will probably improve the understanding of the model
-- The raw data gives you 3 positions , ideally you should take 1 and improve the model.
+
 
 
 
 ## **Thanks and contact info**
-Getting help from Julia Roch & Pedro Muñoz.
+Getting help from Julia Roch ,Javier Molins & Pedro Muñoz.
 Please do email me for further questions : jcglez93@gmail.com
