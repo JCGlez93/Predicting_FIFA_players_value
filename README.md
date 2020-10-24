@@ -1,6 +1,18 @@
 # Predicting FIFA players value
 
-## **Overview:**
+
+
+## **Inspiration**
+
+The main reason why I created this project is to understand what makes a football player more expensive based on different skills.
+Can we find the new Messi on his very early stages?
+
+Jupyter notebooks are quite good to create and run the model as you can iterate and print the result easily.
+To interact with the machine learning model , I have used tkinter as the main library.
+
+![Image](http://www.radiohc.cu/articles/7633-fifa.jpg)
+
+## **Overview**
 This instructions will allow you to make a copy of the project locally.\
 Check test execution to understand how  to deploy  and execute the Model_for_app.ipynb. \
 I have created 2 extra files as a bonus so you can understand better the machine learning models and make investment decisions
@@ -17,7 +29,7 @@ You can find the following executable files:
 
 
 
-![Image](http://www.radiohc.cu/articles/7633-fifa.jpg)
+
 ---
 
 
@@ -56,13 +68,7 @@ The machine learning model will run automatically and after it has learned , you
 
 
 
-## **Core technical concepts and inspiration**
 
-The main reason why I created this project is to understand what makes a football player more expensive based on different skills.
-Can we find the new Messi on his very early stages?
-
-Jupyter notebooks are quite good to create and run the model as you can iterate and print the result easily.
-To interact with the machine learning model , I have used tkinter as the main library.
 
 ## **Usage**
 
@@ -93,6 +99,7 @@ To interact with the machine learning model , I have used tkinter as the main li
 3- Press the button and you will get the time of the execution and the player value\
 4- Known issues : the model does not accept blank inputs\
 5- Limitation: the model does only accept numerical values coming from the dataset. Ideally you can use dummy variables to increase R2 but you will not be able to create a usable GUI
+
 
 
 ## **To Do**
