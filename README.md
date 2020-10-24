@@ -104,7 +104,7 @@ The machine learning model will run automatically and after it has learned , you
 4- Known issues : the model does not accept blank inputs\
 5- Limitation: the model does only accept numerical values coming from the dataset. Ideally you can use dummy variables to increase R2 but you will not be able to create a usable GUI
 
-![Image](/home/jc/Escritorio/Proyectos_finales_ironhack/Final_project/Predicting_FIFA_players_value/app_screenshot.png)
+![Image](https://github.com/JCGlez93/Predicting_FIFA_players_value/blob/main/app_screenshot.png)
 
 ## **To Do**
 
