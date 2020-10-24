@@ -7,6 +7,8 @@
 The main reason why I created this project is to understand what makes a football player more expensive based on different skills.
 Can we find the new Messi on his very early stages?
 
+Kaggle offers excellent datasets to start diving into the data : https://www.kaggle.com/ketanp79/fifa-19-predicting-players-market-value\
+
 Jupyter notebooks are quite good to create and run the model as you can iterate and print the result easily.
 To interact with the machine learning model , I have used tkinter as the main library.
 
@@ -52,6 +54,8 @@ You can find the following executable files:
 - Conda
 
 - Tkinter
+
+You can find the conda environment on the file : environment.ylm
 
 
 
