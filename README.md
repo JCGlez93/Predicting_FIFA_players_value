@@ -21,11 +21,21 @@ I have created 2 extra files as a bonus so you can understand better the machine
 
 You can find the following executable files:
 
-- Model_for_app.ipynb : explains the dataset, does a random forest regression and creates an app that allows you to get the value of a player based on certain parameters.
-- Bonus.ipynb :  explains the dataset and does more complex machine learning models.
-- under_rated_players.ipynb: explains the dataset, does a random forest regression and creates a csv with the value predicted vs reality. It includes a link to a tableau dashboard so you can interact with the list and take the best decision.
+- Model_for_app.ipynb (Main_tool) : explains the dataset, does a random forest regression and creates an app that allows you to get the value of a player based on certain parameters.
+- Bonus.ipynb (Bonus_models) :  explains the dataset and does more complex machine learning models.
+- under_rated_players.ipynb (Bonus_models): explains the dataset, does a random forest regression and creates a csv with the value predicted vs reality. It includes a link to a tableau dashboard so you can interact with the list and take the best decision.
 
-
+## **Folder structure**
+```
+└── project
+    ├── Bonus_models
+    ├── Environment
+    ├── Images
+    ├── Main_tool
+    ├── Raw_data
+    ├── README.md
+    │  
+```
 
 
 
@@ -80,26 +90,17 @@ The machine learning model will run automatically and after it has learned , you
 2- An app will pop up, input the parameters based on the following intervals:
 
 
-- Parameters: 
+- Parameters range: 
 
-        - 'age' : 16-46
+        - 'age' : 16-46 --> top rated players are between 23-30 years old
         - 'height_cm': 155-205
         - 'weight_kg': 49-110
-        - 'overall': 44-94
-        - 'potential : 44-95
-        - 'wage_eur': 1000-565000
-        - 'international_reputation': 1-5
-        - 'weak_foot': 1-5
-        - 'skill_moves': 1-5
-        - 'team_jersey_number': 1-99
-        - 'nation_jersey_number': 1-99
-        - 'pace': 21-99
-        - 'shooting': 14-93
-        - 'passing': 20-93
-        - 'dribbling': 22-96
-        - 'defending': 14-90
-        - 'physic': 27-92
-        - 'year': 2015-2022
+        - 'nation_jersey_number': 1-99 --> best players tend to wear 1,9 or 10
+        - 'shooting': 14-93 --> top forward are close to 93
+        - 'passing': 20-93 --> top midfielders are close to 93
+        - 'dribbling': 22-96 --> top forward are close to 96
+        - 'defending': 14-90 --> top defenders are close to 90
+        - 'debut_year': 1987-2020 --> assuming that on average they debut at the age of 18
 3- Press the button and you will get the time of the execution and the player value\
 4- Known issues : the model does not accept blank inputs\
 5- Limitation: the model does only accept numerical values coming from the dataset. Ideally you can use dummy variables to increase R2 but you will not be able to create a usable GUI
@@ -114,5 +115,5 @@ The machine learning model will run automatically and after it has learned , you
 
 
 ## **Thanks and contact info**
-Getting help from Julia Roch ,Javier Molins & Pedro Muñoz.
+Getting help from Julia Roch ,Javier Molins, Octavio García & Pedro Muñoz.
 Please do email me for further questions : jcglez93@gmail.com
