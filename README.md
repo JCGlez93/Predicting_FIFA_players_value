@@ -96,16 +96,16 @@ The machine learning model will run automatically and after it has learned , you
         - 'height_cm': 155-205
         - 'weight_kg': 49-110
         - 'nation_jersey_number': 1-99 --> best players tend to wear 1,9 or 10
-        - 'shooting': 14-93 --> top forward are close to 93
+        - 'shooting': 14-93 --> top forwards are close to 93
         - 'passing': 20-93 --> top midfielders are close to 93
-        - 'dribbling': 22-96 --> top forward are close to 96
+        - 'dribbling': 22-96 --> top forwards are close to 96
         - 'defending': 14-90 --> top defenders are close to 90
         - 'debut_year': 1987-2020 --> assuming that on average they debut at the age of 18
 3- Press the button and you will get the time of the execution and the player value\
 4- Known issues : the model does not accept blank inputs\
 5- Limitation: the model does only accept numerical values coming from the dataset. Ideally you can use dummy variables to increase R2 but you will not be able to create a usable GUI
 
-![Image](https://github.com/JCGlez93/Predicting_FIFA_players_value/blob/main/app_screenshot.png)
+![Image](https://github.com/JCGlez93/Predicting_FIFA_players_value/blob/main/Images/app_screenshot.png)
 
 ## **To Do**
 
